@@ -106,7 +106,7 @@ GET /listSchool?latitude=40.7128&longitude=-74.0060
 
 1. Clone the repo
     ```bash
-    git clone https://github.com/your-username/school-api.git
+    git clone https://github.com/IsmailBinMujeeb/school-management-api.git
     cd school-api
     ```
 
