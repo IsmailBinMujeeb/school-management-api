@@ -122,6 +122,7 @@ GET /listSchool?latitude=40.7128&longitude=-74.0060
     MYSQL_DB_USER=root
     MYSQL_DB_PASSWORD=yourpassword
     MYSQL_DB_NAME=yourdbname
+    MYSQL_DB_PORT=3306
     ```
 
 4. Create MySQL table
