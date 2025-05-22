@@ -137,5 +137,5 @@ GET /listSchool?latitude=40.7128&longitude=-74.0060
 
 5. Run the server
     ```bash
-    node server.js
+    npm run dev
     ```
