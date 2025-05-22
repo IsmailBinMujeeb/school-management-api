@@ -1,7 +1,7 @@
-import express from "express";
-import { config } from "dotenv";
+import express from 'express';
+import { config } from 'dotenv';
 
-import schoolRoutes from "./router/school.route.js";
+import schoolRoutes from './router/school.route.js';
 
 config();
 
@@ -12,6 +12,6 @@ app.set('port', PORT);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/", schoolRoutes);
+app.use('/', schoolRoutes);
 
 export default app;

@@ -1,22 +1,24 @@
 {
-  "name": "api-for-school-management",
-  "version": "1.0.0",
-  "description": "A school management API",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "dev": "nodemon index.js",
-    "seed": "node ./seeds/school.seed.js"
-  },
-  "author": "IsmailBinMujeeb (ismailbinmujeeb@gmail.com)",
-  "license": "MIT",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "express-validator": "^7.2.1",
-    "mysql2": "^3.14.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+    "name": "api-for-school-management",
+    "version": "1.0.0",
+    "description": "A school management API",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "seed": "node ./seeds/school.seed.js",
+        "format": "prettier . --write"
+    },
+    "author": "IsmailBinMujeeb (ismailbinmujeeb@gmail.com)",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "express-validator": "^7.2.1",
+        "mysql2": "^3.14.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10",
+        "prettier": "^3.5.3"
+    }
 }
